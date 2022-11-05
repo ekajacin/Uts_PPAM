@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pizza Restaurant</string>
+    <string name="text_intro">Restaurant Eka</string>
+    <string name="store_1">Store</string>
+    <string name="name_label">Your Name</string>
+    <string name="next">Submit</string>
+    <string name="hello">Hello, Eka</string>
+    <string-array name="spin_1">
+        <item>Bandung</item>
+        <item>Bogor</item>
+        <item>Jakarta</item>
+        <item>Depok</item>
+        <item>Bekasi</item>
+         
+    </string-array>
+</resources>

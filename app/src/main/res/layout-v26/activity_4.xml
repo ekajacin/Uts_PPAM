@@ -15,7 +15,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/main_2"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="-4dp" />
+        tools:layout_editor_absoluteY="-4dp"
+        android:contentDescription="@string/todo1" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,19 +65,19 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/desc"
-        app:layout_constraintVertical_bias="0"
-        tools:ignore="UsingOnClickInXml" />
+        app:layout_constraintVertical_bias="0" />
     <Button
         android:id="@+id/button_back"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:onClick="Tampilan_2"
+        android:onClick="Back"
         android:text="@string/back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_order"
-        app:layout_constraintVertical_bias="0" />
+        app:layout_constraintVertical_bias="0"
+        tools:ignore="UsingOnClickInXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

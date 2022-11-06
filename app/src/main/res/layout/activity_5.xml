@@ -11,12 +11,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/orederdet"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="57dp" />
+        tools:layout_editor_absoluteY="57dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/ordered"
@@ -28,13 +29,14 @@
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/store"
-        tools:layout_editor_absoluteX="51dp" />
+        tools:layout_editor_absoluteX="51dp"
+        tools:ignore="MissingConstraints" />
     <TextView
         android:id="@+id/kirim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/kirimdet"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -67,7 +69,7 @@
         android:id="@+id/button_order"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:onClick="Tampilan_2"
+        android:onClick="order_massage1"
         android:text="@string/done"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

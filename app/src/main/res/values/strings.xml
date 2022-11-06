@@ -19,13 +19,17 @@
     <string name="order">Order Now</string>
     <string name="back">Back</string>
     <string name="orederdet">Order Detail</string>
-    <string name="ordered">"Asep
+    <string name="ordered">"
+        Eka
         Store: Cihampelas
         Kue Kastengel sudah dipesan "</string>
     <string name="kirimdet">Pengiriman</string>
     <string name="ambil">Ambil Sendiri</string>
     <string name="kirim">Fast Delivery (minimal 30 menit sampai)</string>
     <string name="done">done</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="order_message">"Terima kasih Eka sudah memesan  ditoko kami, pesanan Pepperoni Pizza  anda dikirim menggunakan Fast Delivery "</string>
     <string-array name="spin_1">
         <item>Bandung</item>
         <item>Bogor</item>

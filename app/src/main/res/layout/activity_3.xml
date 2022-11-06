@@ -21,15 +21,15 @@
         android:textSize="20sp"
         tools:layout_editor_absoluteX="90dp"
         tools:layout_editor_absoluteY="25dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="50dp"/>
 
     <ImageButton
         android:layout_width="62dp"
         android:layout_height="57dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="13dp"
-        android:onClick="Tampilan_2"
-        android:background="@drawable/Person_1"
+        android:background="@drawable/person"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -40,8 +40,7 @@
         android:layout_marginTop="@dimen/margin_wide"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/navbar"
-        app:srcCompat="@drawable/papperoni"
-        android:layout_marginLeft="@dimen/margin_wide" />
+        app:srcCompat="@drawable/papperoni" />
 
     <ImageView
         android:id="@+id/spagheti"
@@ -51,8 +50,7 @@
         android:layout_marginTop="@dimen/margin_wide"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/paperoni"
-        app:srcCompat="@drawable/spaghetti"
-        android:layout_marginLeft="@dimen/margin_wide" />
+        app:srcCompat="@drawable/spaghetti" />
 
     <ImageView
         android:id="@+id/burger"
@@ -62,8 +60,7 @@
         android:layout_marginTop="@dimen/margin_wide"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spagheti"
-        app:srcCompat="@drawable/burger"
-        android:layout_marginLeft="@dimen/margin_wide" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageView
         android:id="@+id/steak"
@@ -73,8 +70,7 @@
         android:layout_marginTop="@dimen/margin_wide"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/burger"
-        app:srcCompat="@drawable/Steak"
-        android:layout_marginLeft="@dimen/margin_wide" />
+        app:srcCompat="@drawable/steak_1" />
 
     <TextView
         android:id="@+id/paperoni_name"
@@ -135,6 +131,8 @@
         app:srcCompat="@drawable/ic_action_name1"
         tools:layout_editor_absoluteX="343dp"
         tools:layout_editor_absoluteY="651dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:onClick="Tampilan_4"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
